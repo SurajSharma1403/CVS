@@ -1,0 +1,119 @@
+/* Welcome Section */
+
+.welcome {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-image: url("../public/3456.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+.welcome h2 {
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+.welcome p {
+  max-width: 750px;
+  margin: auto;
+  color: #d6d2c8;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #1e1e1e;
+  font-size: large;
+  font-weight: 600;
+}
+
+/* Cards */
+
+.cards {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  padding-bottom: 80px;
+}
+
+.card {
+  background: #262626;
+  border: 1px solid rgba(245, 241, 232, 0.08);
+  border-radius: 18px;
+  padding: 35px;
+  transition: 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  border: 4px solid #c9a86a;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #f5f1e8;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #f5f1e8;
+}
+
+.card p {
+  color: #d6d2c8;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+/* Button */
+
+.card button {
+  background: #f5f1e8;
+  color: #1e1e1e;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: transparent;
+  color: #f5f1e8;
+  border: 1px solid #f5f1e8;
+}
+
+/* Footer */
+
+footer {
+  background: #171717;
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid rgba(245, 241, 232, 0.1);
+}
+
+footer p {
+  color: #bfbab0;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}

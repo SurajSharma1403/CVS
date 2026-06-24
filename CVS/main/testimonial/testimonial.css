@@ -1,0 +1,46 @@
+.tscard {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 3px solid #1e1e1e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.tscard img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  position: absolute;
+  top: -50px;
+}
+.tscard p {
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+  font-size: large;
+}
+.cardx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.cardx h3 {
+  font-size: larger;
+}
+.rating {
+  font-size: large;
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Comerade Virtual Skool</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <header class="head">
+      <a href="../main/index.html">
+        <img
+          src="../../public/logocvs-removebg-preview.png"
+          alt="Comrade Virtual Skool logo"
+          class="logo"
+        />
+      </a>
+      <nav class="links">
+        <a href="#">Home</a>
+        <a href="../../about/about.html">About</a>
+        <a href="../../admission/admission.html">Teachers Corner</a>
+        <a href="../../student corner/studencorner.html">Students Corner</a>
+
+        <button
+          class="button"
+          onclick="window.location.href = '/main/Contact us/contact.html'"
+        >
+          Enroll Now
+        </button>
+      </nav>
+    </header>
+
+    <section class="container">
+      <div class="left">
+        <h1 class="contact-title">Let's Connect</h1>
+
+        <p class="contact-text">
+          Have questions about admissions, classes, courses, or online learning?
+          Fill out the form and our team will contact you as soon as possible.
+        </p>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91 98765 43210</span>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>info@comeradevirtualskool.com</span>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>India</span>
+        </div>
+
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="right">
+        <form class="contact-form">
+          <label class="form-label">Full Name</label>
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label class="form-label">Email Address</label>
+          <input
+            class="form-input"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label class="form-label">Phone Number</label>
+          <input
+            class="form-input"
+            type="tel"
+            placeholder="Enter phone number"
+            required
+          />
+
+          <label class="form-label">Gender</label>
+
+          <div class="gender-group">
+            <label><input type="radio" name="gender" /> Male</label>
+            <label><input type="radio" name="gender" /> Female</label>
+            <label><input type="radio" name="gender" /> Other</label>
+          </div>
+
+          <label class="form-label">Course</label>
+
+          <select class="form-select">
+            <option>Select Course</option>
+            <option>Mathematics</option>
+            <option>Science</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Computer Science</option>
+            <option>Web Development</option>
+            <option>Python Programming</option>
+            <option>Artificial Intelligence</option>
+            <option>Cyber Security</option>
+            <option>Graphic Design</option>
+            <option>Digital Marketing</option>
+          </select>
+
+          <label class="form-label">Address</label>
+
+          <textarea
+            class="form-textarea"
+            placeholder="Enter your address"
+          ></textarea>
+
+          <div class="action">
+            <input class="submit-btn" type="submit" value="Get a Call Back" />
+
+            <input class="reset-btn" type="reset" value="Reset" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+```
