@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Corner | Comerade Virtual School</title>
+    <title>Teacher Corner | Comerade Virtual Schools</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,13 +14,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="studentcorner.css" />
-    <link rel="stylesheet" href="../main/style.css" />
+    <link rel="stylesheet" href="admission.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <div class="mainpage">
       <header class="head">
-        <a href="../main/index.html">
+        <a href="../index.html">
           <img
             src="../Images/logocvs-removebg-preview.png"
             alt="Comrade Virtual Skool logo"
@@ -28,66 +28,68 @@
           />
         </a>
         <nav class="links">
-          <a href="../main/index.html">Home</a>
+          <a href="../index.html">Home</a>
           <a href="../about/about.html">About</a>
           <a href="../admission/admission.html">Teachers Corner</a>
           <a href="../student-corner/studencorner.html">Students Corner</a>
 
           <button
             class="button"
-            onclick="window.location.href = '../main/contact-us/contact.html'"
+            onclick="window.location.href = '../contact-us/contact.html'"
           >
             Contact Us
           </button>
         </nav>
       </header>
 
-      <section class="welcome">
-        <h2>Welcome Students</h2>
+      <div class="welcome">
+        <h2>Welcome Teachers</h2>
         <p>
           Access your classes, assignments, study materials, attendance records,
           and announcements all in one place.
         </p>
-      </section>
-
-      <section class="cards">
+      </div>
+      <div class="container">
         <div class="card">
-          <h3><i class="fa-solid fa-book"></i> Study Material</h3>
-          <p>Download notes, worksheets, and learning resources.</p>
-          <button>View Resources</button>
+          <h2><i class="fa-solid fa-chart-bar"></i> Dashboard</h2>
+          <p>View classes, assignments and student activity.</p>
         </div>
 
         <div class="card">
-          <h3><i class="fa-solid fa-file-pen"></i> Assignments</h3>
-          <p>Check and submit your assignments online.</p>
-          <button>Open Assignments</button>
+          <h2><i class="fa-solid fa-chalkboard-user"></i> My Classes</h2>
+          <p>Manage your classes and subjects.</p>
         </div>
 
         <div class="card">
-          <h3><i class="fa-solid fa-video"></i> Live Classes</h3>
-          <p>Join your scheduled virtual classes.</p>
-          <button>Join Class</button>
+          <h2><i class="fa-solid fa-clipboard-user"></i> Attendance</h2>
+          <p>Mark and review student attendance.</p>
         </div>
 
         <div class="card">
-          <h3><i class="fa-solid fa-bullhorn"></i> Announcements</h3>
-          <p>Stay updated with school notices and events.</p>
-          <button>View Notices</button>
+          <h2><i class="fa-solid fa-file-pen"></i> Assignments</h2>
+          <p>Create and evaluate assignments.</p>
         </div>
 
         <div class="card">
-          <h3><i class="fa-solid fa-chart-pie"></i> Attendance</h3>
-          <p>Track your attendance and participation records.</p>
-          <button>Check Attendance</button>
+          <h2><i class="fa-solid fa-folder-open"></i> Study Materials</h2>
+          <p>Upload notes, PDFs and learning resources.</p>
         </div>
 
         <div class="card">
-          <h3><i class="fa-solid fa-trophy"></i> Achievements</h3>
-          <p>Explore student achievements and awards.</p>
-          <button>View Achievements</button>
+          <h2><i class="fa-solid fa-chart-line"></i> Exams & Results</h2>
+          <p>Manage tests and publish results.</p>
         </div>
-      </section>
 
+        <div class="card">
+          <h2><i class="fa-solid fa-video"></i> Live Classes</h2>
+          <p>Schedule and conduct virtual sessions.</p>
+        </div>
+
+        <div class="card">
+          <h2><i class="fa-solid fa-message"></i> Messages</h2>
+          <p>Communicate with students and parents.</p>
+        </div>
+      </div>
       <footer class="footer">
         <img src="../Images/inverselogo.png" alt="logo" class="footer-logo" />
         <p>&copy; All Rights Reserved 2026</p>

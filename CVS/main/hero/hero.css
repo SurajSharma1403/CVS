@@ -1,5 +1,5 @@
 .hero {
-  background: url("../../Images/hero.png");
+  background: url("../Images/hero.png");
   background-position: center;
   height: 80vh;
   display: flex;
