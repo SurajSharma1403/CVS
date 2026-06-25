@@ -1,5 +1,5 @@
 .hero {
-  background: url("/Images/hero.png");
+  background: url("../../Images/hero.png");
   background-position: center;
   height: 80vh;
   display: flex;
@@ -10,14 +10,17 @@
 .heroContent p {
   color: #f5f1e8;
 }
+
 .heroContent {
   width: 750px;
   margin-left: 2rem;
 }
+
 .heroContent h1 {
   font-size: 3.7rem;
   margin-bottom: 3rem;
 }
+
 .heroContent p {
   font-size: 1.2rem;
   width: 655px;
