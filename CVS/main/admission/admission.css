@@ -67,3 +67,16 @@
   line-height: 1.7;
   color: rgba(245, 241, 232, 0.75);
 }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .welcome {
+    padding: 30px 10px;
+  }
+  .welcome h2 {
+    font-size: 2.5rem;
+  }
+}

@@ -124,3 +124,16 @@ footer p {
 ::-webkit-scrollbar-thumb:hover {
   background: #777;
 }
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .welcome {
+    padding: 30px 10px;
+  }
+  .welcome h2 {
+    font-size: 2.5rem;
+  }
+}
